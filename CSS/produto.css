@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:  #f5f5f5;
+}
+
+header {
+    background-color: rgb(172, 0, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.centralizar{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align:center
+}
+
+
+
+h1 {
+    color: rgb(0, 0, 0); /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+h1:hover {
+    color: black; 
+    text-decoration: underline; 
+}
